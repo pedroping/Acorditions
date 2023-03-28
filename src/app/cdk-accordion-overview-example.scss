@@ -6,6 +6,21 @@
 :host{
   cdk-accordion-item{
     margin-top: 5px;
+  } 
+
+  .example-accordion-item-header{
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  cdk-accordion-item:hover{
+    .example-accordion-item-header{
+      background-color: lightblue;
+      overflow: hidden;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
   }
 }
 
@@ -20,8 +35,7 @@
 }
 
 .example-accordion-item  {
-  border: 1px solid black;
-  border-radius: 10px;
+  
 }
 
 .example-accordion-item-header {
