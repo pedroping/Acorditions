@@ -5,13 +5,14 @@
 
 :host{
   cdk-accordion-item{
-    margin-top: 5px;
+    padding-bottom: 5px;
   } 
 
   .example-accordion-item-header{
     overflow: hidden;
     border: 1px solid black;
     border-radius: 10px;
+   
   }
 
   cdk-accordion-item:hover{
@@ -25,12 +26,14 @@
 
 .example-accordion {
   display: block;
-  max-width: 500px;
+  max-width: 200px;
+  
 
 }
 
 .example-accordion-item {
   display: block;
+  
 }
 
 .example-accordion-item  {
