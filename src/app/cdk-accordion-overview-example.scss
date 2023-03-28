@@ -16,8 +16,7 @@
 
   cdk-accordion-item:hover{
     .example-accordion-item-header{
-      background-color: lightblue;
-      overflow: hidden;
+      transform: scale(1.01);
       border: 1px solid black;
       border-radius: 10px;
     }

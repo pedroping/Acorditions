@@ -8,7 +8,9 @@
     [attr.id]="'accordion-header-' + index"
     [attr.aria-expanded]="accordionItem.expanded"
     [attr.aria-controls]="'accordion-body-' + index">
-    <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
+    <div class="example-accordion-item-header" 
+      [style.background-color]="accordionItem.expanded ? 'lightBlue' : ''"
+    (click)="accordionItem.toggle()">
       <span>
         <mat-icon class="titleIcon">{{item.icon}}</mat-icon>
         {{ item.label }}
