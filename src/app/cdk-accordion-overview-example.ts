@@ -6,10 +6,33 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'cdk-accordion-overview-example',
   templateUrl: 'cdk-accordion-overview-example.html',
-  styleUrls: ['cdk-accordion-overview-example.css'],
+  styleUrls: ['cdk-accordion-overview-example.scss'],
 })
 export class CdkAccordionOverviewExample {
-  items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+  
+
+  items = [
+    {
+      icon: 'keyboard_arrow_down',
+      label: 'Item 1'
+    },
+    {
+      icon: 'keyboard_arrow_left',
+      label: 'Item 2'
+    },
+    {
+      icon: 'keyboard_arrow_right',
+      label: 'Item 3'
+    },
+    {
+      icon: 'keyboard_arrow_up',
+      label: 'Item 4'
+    },
+    {
+      icon: 'keyboard_backspace',
+      label: 'Item 5'
+    }
+  ]
   expandedIndex = 0;
 }
 

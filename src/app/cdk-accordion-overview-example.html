@@ -9,10 +9,12 @@
     [attr.aria-expanded]="accordionItem.expanded"
     [attr.aria-controls]="'accordion-body-' + index">
     <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
-      {{ item }}
+      <span>
+        <mat-icon class="titleIcon">{{item.icon}}</mat-icon>
+        {{ item.label }}
+      </span>
       <span class="example-accordion-item-description">
         <mat-icon>{{ accordionItem.expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}</mat-icon>
-    S
       </span>
     </div>
     <div
