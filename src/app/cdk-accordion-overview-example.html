@@ -7,7 +7,7 @@
     <div class="example-accordion-item-header" 
       [style.background-color]="accordionItem.expanded ? 'lightBlue' : ''"
     (click)="accordionItem.toggle()">
-      <span>
+      <span class="title">
         <mat-icon class="titleIcon">{{item.icon}}</mat-icon>
         {{ item.label }}
       </span>

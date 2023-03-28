@@ -1,3 +1,13 @@
+.title{
+  position: relative;
+  top: -10px;
+}
+
+.example-accordion-item-description{
+  position: relative;
+  top: -5px;
+}
+
 .titleIcon{
   position: relative;
   top: 5px;
@@ -12,6 +22,7 @@
     overflow: hidden;
     border: 1px solid black;
     border-radius: 10px;
+    height: 10px !important; 
    
   }
 
